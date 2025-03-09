@@ -24,28 +24,7 @@ Before diving in, make sure you have these libraries installed:
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
 ```
 
-## 🚀 Usage
-
-### 1️⃣ Load the Data
-
-Modify `file_path` in `ColdChainDataLoader` to point to your dataset (CSV file with `datetime`, `temperature_C`, `humidity_%`, and `deviation_flag` columns). 
-
-### 2️⃣ Run the Script
-
-Launch the system by running:
-
-```bash
-python main.py
-```
-
-This will:
-
-✅ Load and preprocess data  
-✅ Train an LSTM model  
-✅ Detect anomalies in new data  
-✅ Visualize detected anomalies  
-
-### 3️⃣ Save and Load the Model
+ Save and Load the Model
 
 After training, the model is saved to Google Drive for future use:
 
